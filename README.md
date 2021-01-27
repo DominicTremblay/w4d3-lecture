@@ -2,8 +2,12 @@
 
 - What is AJAX
 - What are the pros and cons
-- How it impacst the browser history
+- How it impacts the browser history
 - Learned about CORS
+
+## Slides
+
+- [Slides available here](./w4d3_ajax.pdf)
 
 ## What is AJAX
 
