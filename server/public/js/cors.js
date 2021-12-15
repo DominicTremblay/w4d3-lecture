@@ -5,6 +5,8 @@ $(document).ready(function () {
     // get the content of the form
     const content = $(this).serialize();
 
+    console.log( $(this).serialize());
+
     $.ajax({
       url:`http://localhost:8000/register`,
       method: 'POST',

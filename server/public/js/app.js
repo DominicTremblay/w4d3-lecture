@@ -68,8 +68,11 @@ $(document).ready(function () {
     // prevent form submission
     event.preventDefault();
 
-    // extract the search keyword
+    // this => <form>...</form>
 
+
+    // extract the search keyword
+    // inputBox = <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" name="searchBox">
     const inputBox = $(this).children('input[type="search"]');
 
     const searchTerm = inputBox.val();
