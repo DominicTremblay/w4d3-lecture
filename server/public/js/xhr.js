@@ -1,7 +1,7 @@
 const ROOT_URL = 'http://localhost:3000/api/superheros/70/biography';
 
 const getBiography = (url) => {
-  console.log('issueing request');
+  console.log(`issueing request to ${ROOT_URL}`);
 
   // create the XMLhttp request
   const xhr = new XMLHttpRequest();
